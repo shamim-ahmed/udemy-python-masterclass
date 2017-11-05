@@ -10,4 +10,3 @@ for i in range(10):
 greeting = "Hello"
 name = "Bruce"
 print(greeting + " " + name)
-

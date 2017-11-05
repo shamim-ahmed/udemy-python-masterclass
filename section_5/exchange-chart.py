@@ -6,7 +6,7 @@ try:
     from urllib.error import URLError as urllib_URL_error
     from urllib.error import HTTPError as urllib_HTTP_error
 except ImportError:
-    import Tkinter as tkinter       # Pyton 2.7
+    import Tkinter as tkinter  # Pyton 2.7
     import urllib2 as urllib_request
     from urllib2 import URLError as urllib_URL_error
     from urllib2 import HTTPError as urllib_HTTP_error
