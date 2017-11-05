@@ -6,5 +6,6 @@ print(age)
 
 if age >= 18:
     print("You are old enough to vote !")
+    print("Please put an X in the ballot box")
 else:
     print("Please come back after {0} years".format(18 - age))
