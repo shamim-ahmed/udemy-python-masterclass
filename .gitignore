@@ -2,3 +2,6 @@
 .project
 .pydevproject
 .metadata
+venv
+.idea
+.git
