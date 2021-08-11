@@ -19,3 +19,6 @@ several \
 lines"""
 
 print(anotherString)
+
+print("C:\\Users\\shami\\notes.txt")
+print(r"C:\Users\shami\notes.txt")
