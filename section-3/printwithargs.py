@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 greetings = "Hello"
 name = input("What's your name? : ")
 

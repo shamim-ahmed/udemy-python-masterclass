@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/env python
 
 print("Today is a good day to learn Python")
 print('Python is fun')
