@@ -1,3 +1,5 @@
-# udemy-complete-python-developer-course
+# udemy-learn-python-programming-masterclass
 
-This repository contains code examples from the 'Complete Python Masterclass' at Udemy.
+This repository contains examples from the Udemy course 'Learn Python Programming Masterclass'.
+
+https://www.udemy.com/course/python-the-complete-python-developer-course/
