@@ -1,18 +1,24 @@
 #!/usr/bin/env python
 
-import random
+answer = 5
 
-done = False
+guess = int(input("Please enter a number between 1 and 10: "))
 
-while done == False:
-    answer = random.randrange(1, 11)
+if guess < answer:
+    print("Please guess higher")
     guess = int(input("Please enter a number between 1 and 10: "))
 
     if guess == answer:
-        print("Your guess is correct. The answer is {}".format(answer))
-        done = True
+        print("Well done! You've guessed correctly.")
     else:
-        print("Sorry, your guess was not correct. Please try again")
-        print()
+        print("Sorry, wrong answer.")
+elif guess > answer:
+    print("Please guess lower.")
+    guess = int(input("Please enter a number between 1 and 10: "))
 
-print("Have a nice day!")
+    if guess == answer:
+        print("Well done! You've guessed correctly.")
+    else:
+        print("Sorry, wrong answer.")
+else:
+    print("Well done! You've guessed correctly.")
