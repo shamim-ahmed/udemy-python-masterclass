@@ -8,7 +8,7 @@ if guess == answer:
 else:
     if guess < answer:
         print("Please guess higher.")
-    elif guess > answer:
+    else:
         print("Please guess lower.")
 
     guess = int(input("Please enter a number between 1 and 10: "))
