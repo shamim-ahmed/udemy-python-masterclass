@@ -13,7 +13,8 @@ def find_files(start_dir, extension):
 
 
 # declare generator for finding files containing music data
-my_music_files = find_files(".", ".emp3")
+start_path = input("Specify the directory to scan: ")
+my_music_files = find_files(start_path, ".emp3")
 
 for f in my_music_files:
     try:
