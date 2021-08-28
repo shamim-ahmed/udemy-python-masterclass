@@ -14,6 +14,7 @@ def find_files(start_dir, extension):
 # declare generator for file search
 fgen = find_files(".", ".py")
 
+# we can keep invoking next until we get an exception
 try:
     while True:
         print(next(fgen))
