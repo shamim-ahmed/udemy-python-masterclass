@@ -32,7 +32,7 @@ fruits.pop()
 if fruits:
     print("True")
 else:
-    print("false")
+    print("False")
 
 print("-" * 20)
 
@@ -42,7 +42,7 @@ myRange = range(5)
 if myRange:
     print("True")
 else:
-    print("false")
+    print("False")
 
 # test with empty range
 myRange = range(0)
@@ -50,4 +50,22 @@ myRange = range(0)
 if myRange:
     print("True")
 else:
-    print("false")
+    print("False")
+
+print("-" * 20)
+
+# test with non-empty string
+name = "Alice"
+
+if name:
+    print("True")
+else:
+    print("False")
+
+# test with empty string
+name = ""
+
+if name:
+    print("True")
+else:
+    print("False")
