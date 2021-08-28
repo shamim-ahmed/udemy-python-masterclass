@@ -4,7 +4,7 @@ import os
 
 start_dir = "."
 
-for path, directories, files in os.walk(start_dir, topdown = True):
+for path, directories, files in os.walk(start_dir, topdown=True):
     print(path)
 
     for f in files:
