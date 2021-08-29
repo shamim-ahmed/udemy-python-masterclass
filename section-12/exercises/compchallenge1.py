@@ -12,9 +12,5 @@
 #
 # The code from the end of the last video appears below, so you can check the result.
 
-for i in range(1, 31):
-    fizzbuzz = "fizz buzz" if i % 15 == 0 else "fizz" if i % 3 == 0 else "buzz" if i % 5 == 0 else str(i)
-    print(fizzbuzz)
-
 result = ["fizz buzz" if i % 15 == 0 else "fizz" if i % 3 == 0 else "buzz" if i % 5 == 0 else str(i) for i in range(1, 31)]
-print(result)
+print(result)    
