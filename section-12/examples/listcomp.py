@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# print the aboslute path of the current file
+# print the absolute path of the current file
 print(__file__)
 
 # declare a list of numbers
