@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
-        "fnmatch",
         "varargs"
+    ],
+    "cSpell.ignoreWords": [
+        "fnmatch",
+        "itertools"
     ]
 }
