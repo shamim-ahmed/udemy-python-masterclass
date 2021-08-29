@@ -14,8 +14,8 @@ for x in text.split():
 print(output)
 
 # type your solution here:
-output = [len(x) for x in text.split()]
-print(output)
+answer = [len(x) for x in text.split()]
+print(answer)
 
 # It could be useful to store the original words in the list, as well.
 # The for loop would look like this (note the extra parentheses, so
@@ -27,5 +27,5 @@ for x in text.split():
 print(output)
 
 # type the corresponding comprehension here:
-output = [(x, len(x)) for x in text.split()]
-print(output)
+answer = [(x, len(x)) for x in text.split()]
+print(answer)
