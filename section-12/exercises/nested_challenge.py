@@ -6,20 +6,21 @@
 # The challenge is to use a nested comprehension, to produce the same values.
 # You can iterate over the list, to produce the same output as the for loop, or just print out the list.
 
-times = [[(i, i * j) for j in range(1, 11)] for i in range(1, 11)]
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i, i * j)
+
+print()
+
+times = [(i, i * j) for i in range(1, 11) for j in range(1, 11)]
 print(times)
-
-print()
-
-times2 = [[(i, i * j) for i in range(1, 11)] for j in range(1, 11)]
-print(times2)
-
-print()
-
-times3 = [(i, i * j) for i in range(1, 11) for j in range(1, 11)]
-print(times3)
 
 print()
 
 for x, y in [(i, i * j) for i in range(1, 11) for j in range(1, 11)]:
     print(x, y)
+
+print()
+
+times2 = [[(i, i * j) for i in range(1, 11)] for j in range(1, 11)]
+print(times2)
