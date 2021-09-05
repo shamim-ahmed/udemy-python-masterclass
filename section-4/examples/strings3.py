@@ -7,6 +7,8 @@ for c in number:
     if not c.isnumeric():
         separators += c
 
+print(separators)
+
 values = "".join([c if c not in separators else " " for c in number]).split()
 
 print([int(val) for val in values])
