@@ -27,16 +27,12 @@ for loc in sorted(locations):
     print(result)
 """
 
-nested_loop_time = timeit.timeit(nested_loop_sol, globals=globals(), number=5000)
-
 list_comp_sol = """\
 for loc in sorted(locations):
     result = [(key, locations[key]) for key in exits if loc in exits[key].values()]
     print("locations leading to {}".format(loc), end="\t")
     print(result)
 """
-
-list_comp_time = timeit.timeit(list_comp_sol, globals=globals(), number=5000)
 
 nested_comp_sol = """\
 result = [[(key, locations[key]) for key in exits if loc in exits[key].values()] for loc in sorted(locations)]
@@ -46,8 +42,14 @@ for loc, loc_list in enumerate(result):
     print(loc_list)
 """
 
-nested_comp_time = timeit.timeit(nested_comp_sol, globals=globals(), number=5000)
+nested_loop_time = timeit.timeit(nested_loop_sol, globals=globals(), number=5000)
+print("nested loop: {}".format(nested_loop_time))
+print("-" * 50)
 
-print(nested_loop_time)
-print(list_comp_time)
-print(nested_comp_time)
+list_comp_time = timeit.timeit(list_comp_sol, globals=globals(), number=5000)
+print("list comprehension: {}".format(list_comp_time))
+print("-" * 50)
+
+nested_comp_time = timeit.timeit(nested_comp_sol, globals=globals(), number=5000)
+print("nested comprehension: {}".format(nested_comp_time))
+print("-" * 50)
