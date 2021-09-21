@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 available_exits = ["north", "south", "east", "west"]
 chosen_exit = ""
