@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 n = int(input("Please enter a positive integer between 1 and 12: "))
 
