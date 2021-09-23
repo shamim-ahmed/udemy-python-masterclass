@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 tree1 = "Eucalyptus"
 tree2 = "pine"
