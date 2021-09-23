@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 name = input("Please enter your name: ")
 age = int(input("Please enter your age: "))

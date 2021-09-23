@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 quote = """
 Alright, but apart from the Sanitation, the Medicine, Education, Wine,

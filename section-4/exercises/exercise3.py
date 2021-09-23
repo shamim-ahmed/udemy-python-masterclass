@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 answer = 5
 guess = int(input("Please enter a number between 1 and 10: "))
