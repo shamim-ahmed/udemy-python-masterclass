@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
 
