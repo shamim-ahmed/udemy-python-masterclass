@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-current_choice = ""
+current_choice = "-"
 computer_parts = []
 
 while current_choice != "0":
