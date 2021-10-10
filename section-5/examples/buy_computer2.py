@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-available_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat"]
-current_choice = "-"
+available_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat", "hdmi cable", "dvd drive"]
+current_choice = -1
 chosen_parts = []
 
-while current_choice != "0":
-    if current_choice in "12345":
+while current_choice != 0:
+    if 1 <= current_choice <= len(available_parts):
         idx = int(current_choice) - 1
         chosen_parts.append(available_parts[idx])
     else:
@@ -16,6 +16,6 @@ while current_choice != "0":
         
         print("0: to finish")
 
-    current_choice = input()
+    current_choice = int(input())
 
 print(chosen_parts)

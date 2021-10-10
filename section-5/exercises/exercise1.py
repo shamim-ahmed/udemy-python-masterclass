@@ -16,7 +16,7 @@ while current_choice != "0":
         elif current_choice == "5":
             computer_parts.append("mouse mat")
         elif current_choice == "6":
-            computer_parts.append("hdmi")
+            computer_parts.append("hdmi cable")
     else:
         print("Please add options from the list below:")
         print("1: computer")
@@ -24,7 +24,7 @@ while current_choice != "0":
         print("3: keyboard")
         print("4: mouse")
         print("5: mouse mat")
-        print("6: hdmi")
+        print("6: hdmi cable")
         print("0: to finish")
 
     current_choice = input()
